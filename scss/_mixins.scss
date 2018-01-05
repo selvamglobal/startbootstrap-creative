@@ -10,9 +10,33 @@
   -o-background-size: cover;
   background-size: cover;
 }
+$font-bold: 700;
+
+/* In type partial */
+@font-face {
+  font-family: 'Hind Madurai';
+  src: url("fonts/HindMadurai-Light.ttf") format("ttf");
+   font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind Madurai';
+  src: url("fonts/HindMadurai-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hind Madurai';
+  src: url("fonts/HindMadurai-Bold.ttf") format("ttf");
+  font-weight: $font-bold;
+  font-style: normal;
+}
+
 @mixin serif-font() {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Hind Madurai', sans-serif;
 }
 @mixin sans-serif-font() {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family:'Hind Madurai','Helvetica Neue', Arial, sans-serif;
 }
