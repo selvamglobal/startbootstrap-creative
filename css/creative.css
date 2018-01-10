@@ -6,22 +6,22 @@
 /* In type partial */
 @font-face {
   font-family: 'Hind Madurai';
-  src: url("fonts/HindMadurai-Light.ttf") format("ttf");
-  font-weight: 200;
-  font-style: normal; }
-
+  font-style: normal;
+  font-weight: 300;
+  src: local('Hind Madurai Light'), local('HindMadurai-Light'), url(fonts/HindMadurai-Light.ttf) format('ttf');
+}
 @font-face {
   font-family: 'Hind Madurai';
-  src: url("fonts/HindMadurai-Regular.ttf") format("ttf");
+  font-style: normal;
   font-weight: 400;
-  font-style: italic; }
-
+  src: local('Hind Madurai Regular'), local('HindMadurai-Regular'), url(fonts/HindMadurai-Regular.ttf) format('ttf');
+}
 @font-face {
   font-family: 'Hind Madurai';
-  src: url("fonts/HindMadurai-Bold.ttf") format("ttf");
+  font-style: normal;
   font-weight: 700;
-  font-style: normal; }
-
+  src: local('Hind Madurai Bold'), local('HindMadurai-Bold'), url(fonts/HindMadurai-Bold.ttf) format('ttf');
+}
 body,
 html {
   width: 100%;
