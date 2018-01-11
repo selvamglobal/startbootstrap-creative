@@ -5,9 +5,8 @@ header.masthead {
   background: #0575E6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #021B79, #2b32b2);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #021B79, #2b32b2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-image: url('../img/web_design_coimbatore.png');
+ // background-image: url('../img/header.jpg');
   background-position: center center;
-  background-attachment: fixed;
   @include background-cover;
   hr {
     margin-top: 30px;
